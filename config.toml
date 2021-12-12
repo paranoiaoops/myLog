@@ -1,0 +1,3 @@
+baseURL = 'http://example.org/'
+languageCode = 'ja'
+title = '日記|備忘録|雑記'

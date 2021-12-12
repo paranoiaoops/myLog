@@ -1,3 +1,9 @@
 baseURL = 'http://example.org/'
 languageCode = 'ja'
-title = '日記|備忘録|雑記'
+title = '日記｜備忘録｜雑記'
+theme = "hugo-clarity"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"

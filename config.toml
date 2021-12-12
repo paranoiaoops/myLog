@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://paranoiaoops.github.io/myLog'
 languageCode = 'ja'
 title = '日記｜備忘録｜雑記'
 theme = "hugo-clarity"

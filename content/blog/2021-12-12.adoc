@@ -24,9 +24,9 @@ Hugo を利用したブログの構築 +
 .The English We Speak
 * https://www.bbc.co.uk/programmes/p0b8jvb4
 
-== Tech
+=== Tech
 
-=== Git
+==== Git
 
 .git submodule について
 * 機能

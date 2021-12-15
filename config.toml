@@ -1,5 +1,7 @@
 baseURL = 'https://paranoiaoops.github.io/myLog'
+defaultContentLanguage = "ja"
 languageCode = 'ja'
+hasCKLanguage = true
 title = '日記｜備忘録｜雑記'
 theme = "hugo-clarity"
 

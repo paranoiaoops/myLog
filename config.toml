@@ -1,4 +1,4 @@
-baseURL = 'https://paranoiaoops.github.io/myLog'
+baseURL = 'https://paranoiaoops.github.io/myLog/'
 defaultContentLanguage = "ja"
 languageCode = 'ja'
 hasCKLanguage = true

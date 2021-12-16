@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記｜備忘録｜雑記</title><link>https://paranoiaoops.github.io/myLog/</link><description>Recent content on 日記｜備忘録｜雑記</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 12 Dec 2021 22:13:57 +0900</lastBuildDate><atom:link href="https://paranoiaoops.github.io/myLog/index.xml" rel="self" type="application/rss+xml"/><item><title>2021年12月12日</title><link>https://paranoiaoops.github.io/myLog/blog/2021-12-12/</link><pubDate>Sun, 12 Dec 2021 22:13:57 +0900</pubDate><guid>https://paranoiaoops.github.io/myLog/blog/2021-12-12/</guid><description>
+一言 ミニゴルフデザイナーの発売日が知りたい
+やったこと Hugo を利用したブログの構築 使わせてもらっているテーマの設定が色々とあるから少しずつ読み進めて行きたい。
+読んだもの/聞いたもの git submoduleについて https://www.m3tech.blog/entry/git-submodule
+The English We Speak https://www.bbc.co.uk/programmes/p0b8jvb4
+Tech Git git submodule について 機能
+別リポジトリで管理している、ツール・ライブラリー・ソース等を管理する機能
+サブモジュールを登録している状態で、メインのリポジトリをcloneするとサブモジュールも自動的に引っ張ってくる
+ざっくり使い方
+git submodule で持ってきたいリポジトリを持ってくる
+取得したソースの最新を取得したい時は、該当のディレクトリに入って git pull 等
+ざっくり
+go mod というかパッケージ管理的な機能か？</description></item></channel></rss>

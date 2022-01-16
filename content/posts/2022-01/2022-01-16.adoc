@@ -1,7 +1,7 @@
 ---
 title: "2022/01/16"
 date: 2022-01-16T17:49:12+09:00
-draft: true
+draft: false
 description: "日曜日、買い物くらいしかしてない"
 ---
 :toc:

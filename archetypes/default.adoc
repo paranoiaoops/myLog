@@ -1,14 +1,23 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .Name "-" "/" | title }}"
 date: {{ .Date }}
 draft: true
+description: ""
 ---
+:toc:
+:toclevels: 2
+:idprefix:
 
-= タイトル
+= {{ replace .Name "-" "/" | title }}
 
-== 一言
+== 今日の一言
 
-== やったこと
+**
 
+== 今日やったこと
 
-== 読んだもの/聞いたもの
+*
+
+== 雑記|備忘録
+
+*

@@ -1,11 +1,88 @@
 baseURL = 'https://paranoiaoops.github.io/myLog/'
-defaultContentLanguage = "ja"
-languageCode = 'ja'
-hasCKLanguage = true
 title = '日記｜備忘録｜雑記'
-theme = "hugo-clarity"
+theme = "ink-free"
+
+defaultContentLanguage = "ja"
+languageCode = "ja"
+hasCJKLanguage= true
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', 'asciidoctor']
+
+dateFormat = "2006年1月2日"
+showShare = false
+
+[permalinks]
+  posts = "/:year/:month/:title"
+
+[params]
+	subtitle = "徒然なり"
+
+	# Optional 64x64 avatar image.
+	#avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+
+	featherIconsCDN = false
+
+	# Enable a table of contents
+	toc = true
+
+	# Max tags
+  maxTags = 7
+
+  # Define words per minute to approximate reading time
+  wpm = 250
+
+  mainSections = ["posts"]
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+# [[params.social]]
+# name = "Github"
+# icon = "github"
+# url = "https://github.com/chollinger93/"
+
+# [[params.social]]
+# name = "RSS"
+# icon = "rss"
+# url = "/index.xml"
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+   tag = "tags"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
+    startLevel = 2 

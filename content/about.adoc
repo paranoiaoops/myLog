@@ -1,0 +1,10 @@
+---
+title: "About"
+date: 2022-01-16T17:31:56+09:00
+draft: false
+type: "page"
+---
+
+記憶力が落ちてきたので、ここに日々の記録を残そうと思う。
+
+ちなみにこのブログは https://gohugo.io/[Hugo] ＋ https://github.com/chollinger93/ink-free[ink-free]で作成してます。
